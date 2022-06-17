@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author wenxiangmin
  * @ClassName TestController.java
- * @Description TODO
+ * @Description 测试
  * @createTime 2022年06月17日 10:48:00
  */
 @RestController
@@ -20,6 +20,6 @@ public class TestController {
 
     @GetMapping("t2")
     public String test2() {
-        return "t222346";
+        return "去去去";
     }
 }
