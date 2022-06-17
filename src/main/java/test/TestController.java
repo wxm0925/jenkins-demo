@@ -20,6 +20,6 @@ public class TestController {
 
     @GetMapping("t2")
     public String test2() {
-        return "t22234";
+        return "t222346";
     }
 }
